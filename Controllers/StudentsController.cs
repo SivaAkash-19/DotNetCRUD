@@ -44,10 +44,12 @@ namespace CRUDapp.Controllers
         }
 
         // GET: Students/Create
+        // GET: Students/Create
         public IActionResult Create()
         {
             return View();
         }
+
 
         // POST: Students/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
